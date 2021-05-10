@@ -1,6 +1,6 @@
 @import url("./vendor/normalize.css");
 @import url("./vendor/fonts.css");
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
 
 
 
@@ -324,4 +324,53 @@
   background-color: black;
   margin: auto;
   line-height: 45px;
+}
+
+
+
+/* About Page */
+
+.about {
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/about/about-lead.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.about__title {
+  font-size: 80px;
+}
+
+.about__subtitle {
+  margin: auto;
+  font-size: 40px;
+  width: 90%;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+.business{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 75px;
+  letter-spacing: 2px;
+}
+
+.business:last-child {
+  margin-bottom: 0;
+}
+
+.business__title {
+  text-align: center;
+  font-size: 65px;
+}
+
+.business__paragraph {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  line-height: 1.5;
 }
