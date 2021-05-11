@@ -241,6 +241,13 @@
   line-height: 1.5;
 }
 
+.card__description {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+}
+
 .card__image {
   width: 100%;
   max-width: 100%;
@@ -251,6 +258,7 @@
   list-style-position: inside;
   width: 100%;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
 .service-list__item {
@@ -516,4 +524,61 @@
   margin: 5px auto;
   width: 100%;
   font-size: 15px;
+}
+
+
+
+
+/* Resources and Information */
+
+.lead_page_resources {
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/resources-useful-sites/resources-lead.jpeg");
+}
+
+.resources__title {
+  text-align: center;
+  font-size: 60px;
+  margin: 50px auto 50px auto;
+}
+
+.useful {
+  display: grid;
+  grid-template-areas:
+  "ansul nfpa fdny"
+  "pyrochem nfpa badger";
+  width: 75%;
+  margin: auto;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.useful__link_type_ansul {
+  grid-area: ansul;
+}
+
+.useful__link_type_nfpa {
+  grid-area: nfpa;
+}
+
+.useful__link_type_fdny {
+  grid-area: fdny;
+}
+
+.useful__link_type_pyrochem {
+  grid-area: pyrochem;
+}
+
+.useful__link_type_badger {
+  grid-area: badger;
+}
+
+.useful__img {
+  width: 300px;
+  height: auto;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.useful__img:hover {
+  opacity: 0.7;
+  transform: translate(-3px, -3px);
 }
