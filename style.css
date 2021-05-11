@@ -408,7 +408,6 @@
   position: relative;
   transition: transform 0.4s ease;
   overflow: hidden;
-  border: 1px solid red;
 }
 
 .services__title-overlay {
@@ -462,26 +461,30 @@
 
 .services__card_inspection:hover + .services__popup_inspection {
   opacity: 1;
+  visibility: visible;
 }
 
 .services__card_extinguisher:hover + .services__popup_extinguisher {
   opacity: 1;
+  visibility: visible;
 }
 
 .services__card_systems:hover + .services__popup_systems {
   opacity: 1;
+  visibility: visible;
 }
 
 .services__card_hood:hover + .services__popup_hood {
   opacity: 1;
+  visibility: visible;
 }
 
 .services__text {
-  width: 80%;
+  width: 85%;
   color: black;
-  font-size: 16px;
-  padding: 16px 32px;
-  line-height: 2;
+  font-size: 18px;
+  margin: 15px auto;
+  text-align: left;
 }
 
 .services__popup {
@@ -495,7 +498,8 @@
   left: 0;
   font-family: "Lato", sans-serif;
   opacity: 0;
-  transition: opacity 0.4s ease;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
   border: 2px solid black;
 }
 
@@ -512,13 +516,4 @@
   margin: 5px auto;
   width: 100%;
   font-size: 15px;
-}
-
-.services__text_final {
-  width: 85%;
-  margin: auto;
-  text-align: left;
-  margin-top: 25px;
-  font-size: 18px;
-  margin-bottom: 5px;
 }
