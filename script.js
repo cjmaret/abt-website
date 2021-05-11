@@ -1,3 +1,11 @@
+popup = document.querySelectorAll(".services__popup");
+
+popup.forEach(popup => 
+  popup.addEventListener("click", function() {
+  console.log("hi");
+}));
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +34,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
