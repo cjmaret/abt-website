@@ -606,7 +606,7 @@
 .resources {
   width: 80%;
   margin: auto;
-  margin-top: 85px;
+  margin-top: 95px;
 }
 
 .resources__title {
@@ -628,9 +628,13 @@
 }
 
 .resources__description {
+  display: block;
   font-size: 24px;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 25px;
 }
 
 .resources__link {
