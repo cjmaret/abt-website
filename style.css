@@ -487,6 +487,26 @@
   visibility: visible;
 }
 
+.services__popup_inspection:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.services__popup_extinguisher:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.services__popup_systems:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.services__popup_hood:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
 .services__text {
   width: 85%;
   color: black;
@@ -579,6 +599,73 @@
 }
 
 .useful__img:hover {
-  opacity: 0.7;
+  opacity: 0.6;
   transform: translate(-3px, -3px);
+}
+
+.resources {
+  width: 80%;
+  margin: auto;
+  margin-top: 85px;
+}
+
+.resources__title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.resources__subtitle {
+  font-size: 35px;
+}
+
+.extinguisher-class__title {
+  font-size: 30px;
+}
+
+.extinguisher-class__description {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+.resources__description {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+.resources__link {
+  font-size: 35px;
+  display: block;
+  width: 45%;
+  line-height: 85px;
+  margin: 75px auto 25px auto;
+  text-align: center;
+  border: 3px solid #005;
+  border-radius: 40px;
+  align-self: center;
+  color: #005;
+  transition: 0.4s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.resources__link:hover {
+  background-color: #005;
+  color:white;
+  cursor: pointer;
+}
+
+
+
+/* Contact Page */
+
+.nope {
+  display: block;
+  width: 75%;
+  font-size: 80px;
+  text-align: center;
+  margin: auto;
+  margin-top: 500px;
+  text-transform: uppercase;
+  line-height: 1.75;
 }
