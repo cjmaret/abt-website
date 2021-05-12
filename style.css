@@ -663,13 +663,180 @@
 
 /* Contact Page */
 
-.nope {
-  display: block;
-  width: 75%;
-  font-size: 80px;
+.lead_page_contact {
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/contact/contact-lead.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-form {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 109px;
+}
+
+.contact-form__info-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 48%;
+}
+
+.contact-form__title {
+  font-family: "Fjalla One", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  margin: 0;
+}
+
+.contact-form__description {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.contact-form__description:first-of-type {
+  margin-top: 25px;
+}
+
+.contact-form__map {
+  padding-top: 25px;
+  width: 100%;
+  height: 90%;
+}
+
+.contact-form__form-section {
+  max-width: 635px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgb(140, 140, 180), rgb(226, 226, 226));
+}
+
+.contact-form__form-section__title {
   text-align: center;
+  color: black;
+  font-size: 55px;
+  margin: 35px auto 15px auto;
+}
+
+.contact-form__form-section__subtitle {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  width: 90%;
   margin: auto;
-  padding-top: 200px;
+  margin-bottom: 35px;
+}
+
+.fieldset {
+  border: none;
+}
+
+.input_select {
+  font-family: "Lato", sans-serif;
+  line-height: 30px;
+  height: 30px;
+  border: none;
+}
+
+
+.input {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.text-input::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 3px;
+  opacity: 0.7;
+}
+
+.text-input {
+  width: 100%;
+  margin: auto;
+  height: 30px;
+  background-color: white;
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+
+.text-input:focus {
+  outline: none;
+  border: 2px solid #005;
+}
+
+.textarea {
+  width: 100%;
+  height: 96px;
+  background-color: white;
+  border: none;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
+
+.textarea:focus {
+  outline: none;
+  border: 2px solid #005;
+}
+
+.textarea::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 9px;
+  padding-left: 3px;
+  opacity: 0.7;
+}
+
+.g-recaptcha {
+  width: 90%;
+  margin: auto;
+}
+
+.button-primary_place_contact-form {
+  height: 48px;
+}
+
+.button-primary {
+  line-height: 50px;
+  height: 75px;
+  width: 250px;
+  background-color: #005;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  transition: .4s ease;
+  cursor: pointer;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.button-primary__text {
+  color: white;
+  margin: auto;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
   text-transform: uppercase;
-  line-height: 1.75;
 }
