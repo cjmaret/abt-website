@@ -1,3 +1,5 @@
+#!/usr/bin/php
+
 <?php 
 $name = $_POST['name'];
 $company = $_POST['company'];
