@@ -477,42 +477,22 @@
   box-shadow: 0px 12px 3px rgba(233, 240, 243, .7);
 }
 
-.services__card_inspection:hover + .services__popup_inspection {
+.services__card_inspection:hover + .services__popup_inspection, .services__popup_inspection:hover {
   opacity: 1;
   visibility: visible;
 }
 
-.services__card_extinguisher:hover + .services__popup_extinguisher {
+.services__card_extinguisher:hover + .services__popup_extinguisher, .services__popup_extinguisher:hover {
   opacity: 1;
   visibility: visible;
 }
 
-.services__card_systems:hover + .services__popup_systems {
+.services__card_systems:hover + .services__popup_systems, .services__popup_systems:hover {
   opacity: 1;
   visibility: visible;
 }
 
-.services__card_hood:hover + .services__popup_hood {
-  opacity: 1;
-  visibility: visible;
-}
-
-.services__popup_inspection:hover {
-  opacity: 1;
-  visibility: visible;
-}
-
-.services__popup_extinguisher:hover {
-  opacity: 1;
-  visibility: visible;
-}
-
-.services__popup_systems:hover {
-  opacity: 1;
-  visibility: visible;
-}
-
-.services__popup_hood:hover {
+.services__card_hood:hover + .services__popup_hood, .services__popup_hood:hover {
   opacity: 1;
   visibility: visible;
 }
@@ -580,6 +560,7 @@
   margin: auto;
   align-items: center;
   margin-top: 50px;
+  text-align: center;
 }
 
 .useful__link_type_ansul {
@@ -824,6 +805,11 @@
 .button-primary_place_contact-form {
   height: 48px;
 }
+
+.button-primary_place_contact-form:hover {
+  opacity: 0.7;
+}
+
 
 .button-primary {
   line-height: 50px;
